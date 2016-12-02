@@ -6,7 +6,9 @@ To view the pizza website, download and unzip all of the files and open views/pi
 
 ####Part 1: Optimize PageSpeed Insights score for index.html
 *Minify CSS and placed into head. Add media tag for print.css
+
 *Change JS loading to async.
+
 *Resize and compress the images. 
 
 ####Part 2: Optimize Frames per Second in pizza.html
