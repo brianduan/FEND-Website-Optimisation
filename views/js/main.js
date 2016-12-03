@@ -535,7 +535,8 @@ document.addEventListener('DOMContentLoaded', function() {
   
   //Instead of setting an arbitrary upper bound for i in the for loop, 
   //we calculate the number of pizzas needed to fill the browser window.
-  var pizzaNum = (window.innerHeight / 74) + (window.innerWidth / 74);
+  var rows = window.innerHeight / s + 1; // +1 just to be sure
+  var pizzaNum = rows * cols;
   for (var i = 0; i < pizzaNum; i++) {
     var elem = document.createElement('img');
     elem.className = 'mover';
